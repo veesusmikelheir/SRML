@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace SRML.SR.SaveSystem.Patches
 {
-    [HarmonyPatch(typeof(AutoSaveDirector))]
+    [HarmonyPatch]
     // Need to get rid of 4 instructions after savedgame load 
     internal static class LoadFallBackSavePatch
     {

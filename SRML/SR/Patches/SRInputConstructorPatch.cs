@@ -7,7 +7,7 @@ using System.Text;
 
 namespace SRML.SR.Patches
 {
-    [HarmonyPatch(typeof(SRInput))]
+    [HarmonyPatch]
     internal static class SRInputConstructorPatch
     {
         public static MethodBase TargetMethod()

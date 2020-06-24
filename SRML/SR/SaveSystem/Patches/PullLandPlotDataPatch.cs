@@ -13,7 +13,7 @@ using UnityEngine;
 using VanillaLandPlotData = MonomiPark.SlimeRancher.Persist.LandPlotV08;
 namespace SRML.SR.SaveSystem.Patches
 {
-    [HarmonyPatch(typeof(SavedGame))]
+    [HarmonyPatch]
     internal static class PullLandPlotDataPatch
     {
         public static MethodInfo TargetMethod()

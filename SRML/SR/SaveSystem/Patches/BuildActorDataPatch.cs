@@ -13,7 +13,7 @@ using VanillaActorData = MonomiPark.SlimeRancher.Persist.ActorDataV09;
 
 namespace SRML.SR.SaveSystem.Patches
 {
-    [HarmonyPatch(typeof(SavedGame))]
+    [HarmonyPatch]
     internal static class BuildActorDataPatch
     {
         public static MethodInfo TargetMethod()

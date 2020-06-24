@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace SRML.SR.SaveSystem.Patches
 {
-    [HarmonyPatch(typeof(AutoSaveDirector))]
+    [HarmonyPatch]
     internal static class LoadSavePatch
     {
         private static Type targetType = typeof(AutoSaveDirector).GetNestedTypes(BindingFlags.NonPublic)

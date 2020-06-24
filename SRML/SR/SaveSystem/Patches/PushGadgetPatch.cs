@@ -13,7 +13,7 @@ using UnityEngine;
 using VanillaGadgetData = MonomiPark.SlimeRancher.Persist.PlacedGadgetV08;
 namespace SRML.SR.SaveSystem.Patches
 {
-    [HarmonyPatch(typeof(SavedGame))]
+    [HarmonyPatch]
     internal static class PushGadgetPatch
     {
         public static MethodInfo TargetMethod()

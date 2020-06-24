@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace SRML.SR.Patches
 {
-    [HarmonyPatch(typeof(PersonalUpgradeUI))]
+    [HarmonyPatch]
     internal static class UpgradePurchaseUIPatch
     {
         public static MethodInfo TargetMethod()
