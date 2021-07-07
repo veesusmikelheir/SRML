@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
-using HarmonyLib;
 using static SlimeAppearance;
 
 namespace SRML.SR.SaveSystem.Data.Appearances

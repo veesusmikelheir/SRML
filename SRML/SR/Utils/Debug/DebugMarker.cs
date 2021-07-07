@@ -18,6 +18,8 @@ namespace SRML.SR.Utils.Debug
 
         private static GameObject hoverObj;
 
+        public static GameObject HoverObj { get => hoverObj; }
+
         public void Start()
         {
             if (mesh == null)
